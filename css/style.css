@@ -1,0 +1,58 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f8f8f8;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  background: #eee;
+}
+
+.profile-img {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.navbar {
+  text-align: center;
+  padding: 15px;
+  background: white;
+}
+
+.navbar a {
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
